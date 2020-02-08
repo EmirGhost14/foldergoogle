@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,14 +6,77 @@
 </head>
 <body>
 
-<div class="parent">
-    <div class="block">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <input value="Поиск" type="search" id="site-search" name="search">
+<ul class="menu">
+    <li class="menu-item">
+        <a href="#">Настройки аккаунта</a>
+        <ul class="sub-menu">
+            <li>
+                <a href="#">Логин</a>
+            </li>
+
+            <li>
+                <a href="#">Дополнительные опции</a>
+            <li class="menu-item">
+                <a href="#">Настройки аккаунта</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="#">Логин</a>
+                    </li>
+                    <li>
+                        <a href="#">Пароль</a>
+                    </li>
+                    <li>
+                        <a href="#">Удалить аккаунт</a>
+                    </li>
+                </ul>
+            </li>
+
+            </li>
+
+            <li>
+                <a href="#">Регистрация</a>
+            </li>
+
+            <li>
+                <a href="#">Выход</a>
+            </li>
+
+        </ul>
+    </li>
+</ul>
+
+<center>
+    <div class="parent">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""
+             class="imggoogle">
+
+        <div class="search1">
+            <div class="search-icon1">
+                <img src="https://image.flaticon.com/icons/svg/49/49116.svg" alt="" class="search-icon">
+            </div>
+            <input type="text" name="search" class="search-field">
+            <span class="keyboard"></span>
+            <span class="microphone"></span>
+        </div>
+
         <br>
-    <button>Search</button>
+        <div class="mousejob">
+            <input type="submit" value="Поиск в Google">
+            <input type="submit" value="Мне повезёт!">
+        </div>
     </div>
-</div>
+</center>
+
+<footer>
+    <div>
+        <a href=""> Реклама </a>
+        <a href=""> Для бизнеса </a>
+        <a href=""> Всё о Google </a>
+        <a href=""> Как работает Google поиск </a>
+    </div>
+</footer>
+
+<script src="scripts/menusub.js"></script>
 
 </body>
 </html>
